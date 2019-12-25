@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19A6A361A177CB2280140E8F /* LYGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYGradientView.podspec; path = ../LYGradientView.podspec; sourceTree = "<group>"; };
+		19A6A361A177CB2280140E8F /* LYGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYGradientView.podspec; path = ../LYGradientView.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LYGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		BBB812011450FA85CB049EC9 /* Pods-LYGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYGradientView_Example.release.xcconfig"; path = "Target Support Files/Pods-LYGradientView_Example/Pods-LYGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE69C793EC893B7FE7905C6A /* Pods_LYGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B3AE24AC76B4928F65870B /* Pods_LYGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3B42504C3B919EE3FFADAAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FA8AA9412719159268CE6633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3B42504C3B919EE3FFADAAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA8AA9412719159268CE6633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				8BEA3355204B680B2795D7A7 /* Pods-LYGradientView_Tests.debug.xcconfig */,
 				69F332E3D98D46AA187BC1B0 /* Pods-LYGradientView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K64377832H;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K64377832H;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 6B3B4EAEE60963F5A9F497DA /* Pods-LYGradientView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K64377832H;
 				INFOPLIST_FILE = LYGradientView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = BBB812011450FA85CB049EC9 /* Pods-LYGradientView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K64377832H;
 				INFOPLIST_FILE = LYGradientView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BEA3355204B680B2795D7A7 /* Pods-LYGradientView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K64377832H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69F332E3D98D46AA187BC1B0 /* Pods-LYGradientView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K64377832H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

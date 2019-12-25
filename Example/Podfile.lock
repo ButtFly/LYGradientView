@@ -1,0 +1,16 @@
+PODS:
+  - LYGradientView (0.1.0)
+
+DEPENDENCIES:
+  - LYGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  LYGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYGradientView: ad5479e2454a11d8fc022f637cdc41da58b18b58
+
+PODFILE CHECKSUM: d15e5faa13ccbce44af1e8d3b42bd17da50e14d6
+
+COCOAPODS: 1.8.4

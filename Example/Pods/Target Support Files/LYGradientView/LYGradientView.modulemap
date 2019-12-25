@@ -1,0 +1,6 @@
+framework module LYGradientView {
+  umbrella header "LYGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

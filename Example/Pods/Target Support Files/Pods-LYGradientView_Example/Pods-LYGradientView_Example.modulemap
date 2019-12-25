@@ -1,0 +1,6 @@
+framework module Pods_LYGradientView_Example {
+  umbrella header "Pods-LYGradientView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
