@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYGradientView_Example' do
+  pod 'LYGradientView', :path => '../'
+
+  target 'LYGradientView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
