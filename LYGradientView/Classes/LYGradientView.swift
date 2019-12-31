@@ -69,18 +69,8 @@ open class LYGradientView: UIView {
             gLayer.endPoint = newValue
         }
     }
-
-    open var type: CAGradientLayerType {
-        get {
-            return gLayer.type
-        }
-        set {
-            gLayer.type = newValue
-        }
-    }
-
         
-    private let gLayer = CAGradientLayer()
+    public let gLayer = CAGradientLayer()
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
