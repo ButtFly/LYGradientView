@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
   s.author           = { 'ButtFly' => '315585758@qq.com' }
   s.source           = { :git => 'https://github.com/ButtFly/LYGradientView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  
+  s.swift_versions = ['5.0']
 
   s.ios.deployment_target = '8.0'
 

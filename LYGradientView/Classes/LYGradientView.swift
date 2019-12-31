@@ -72,15 +72,16 @@ open class LYGradientView: UIView {
 
     open var type: CAGradientLayerType {
         get {
-            return gLayer.type as CAGradientLayerType
+            return gLayer.type
         }
         set {
-            gLayer.type = newValue as String
+            gLayer.type = newValue
         }
     }
 
+        
     private let gLayer = CAGradientLayer()
-    
+
     public override init(frame: CGRect) {
         super.init(frame: frame)
         layer.addSublayer(gLayer)
